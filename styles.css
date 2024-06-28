@@ -1,0 +1,151 @@
+.grid-container { background-color: purple ;
+}
+.stoic{background-color: blueviolet;}
+html{
+    height: 100;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 100%;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+ .Services-links{
+    color: rgb(243, 239, 236);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin: 2em;
+ }
+
+ h2{
+    margin: 0;
+    color: rgb(238, 36, 21);
+    font-size: 2.5em;
+ }
+
+ footer{
+    background-color: blue;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+    color: rgb(2, 1, 0);
+ }
+
+/*-------------------  index page - page -pets page ---------------------*/
+
+.content-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    margin: sem;
+    border: 1px solid #da0a0a;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 0 0 10px #d61111;
+}
+
+.content-container .content{
+    margin-right: 2em;
+    padding: 2em;
+}
+
+.content-container .content h2{
+    color: #d61111;
+    margin-top: center;
+    padding: 1em;
+}
+
+.content-container .content p{
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.content-container .content .image{
+    padding:  1em;
+    margin:  auto;
+}
+
+.content-container .content .image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* --------------------- need adoption area ---------------------- */
+
+.need-adoption{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2em;
+    padding: 2em;
+    margin: 4em;
+    background-color: chartreuse;
+} 
+
+.need-adoption::before{
+    content: "";
+    background-image: url(/image/recycle-29227_640.png);
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1
+}
+
+.need-adoption h3{
+    margin: 0;
+    color: #666666;
+}
+
+.need-adoption p{
+    margin: 0;
+    color: antiquewhite;
+}
+
+/* service card - listings */
+
+/*.service-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 4em;
+    padding: 1em;
+    margin: 4em;
+}*/
+
+/*.Service-details{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto;
+gap: 5em;
+}
+
+.Service-details{
+    text-align: center;
+    padding-bottom: 0.5;
+}*/
+
+/*---------------------- service pagr --------------*/
+
